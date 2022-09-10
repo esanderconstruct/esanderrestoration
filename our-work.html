@@ -1,0 +1,164 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Our Work</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="shortcut icon" href="android-chrome-192x192.png"/>
+        <link rel="shortcut icon" href="android-chrome-512x512.png"/>
+        <link rel="shortcut icon" href="apple-touch-icon.png"/>
+        <link rel="shortcut icon" href="favicon-16x16.png"/>
+        <link rel="shortcut icon" href="favicon-32x32.png"/>
+        <link rel="shortcut icon" href="favicon.ico"/>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+           <div id="header">
+            <!--Logo-->
+           <a href="index.html"><img src="images/Logo.png" id="logoHeader"/?></a>
+                       
+            </div>	
+                    
+					<!-- Nav -->
+						<nav id="nav"> 
+                           <div id="logoDiv">
+                               <a href="index.html"><img src="images/Logo.png" id="logo"/></a>
+                            </div>
+                                <div id="rightNav">
+                                    <ul>
+                                        <li><a href="index.html">Home</a></li>
+                                        <li class="current"><a href="our-work.html">Our Work</a></li>
+                                        <li><a href="our-story.html">Our Story</a></li>
+                                        <li><a href="contact.html">Get In Touch</a></li>
+                                     </ul>  
+                            </div>
+						</nav>
+			<!-- Main -->
+				<section class="wrapper style1" id="yum">
+				    <div class="container">
+<!--                        <div class="row gtr-200">-->
+                            <div class="col-8 col-12-narrower">
+						<div id="content">
+
+							<!-- Content -->
+									<block>
+										<h1>What We Do</h1>
+									</block>
+<!--                                    <section class="wwd_cont">-->
+<!--                                        <img src="images/who_we_are1.jpg" class="wwd_image"/>-->
+                                        <ul>
+                                            <li class="des">E Sander Restoration Inc. Specializes in the Remodeling of <emph>Commercial Interiors</emph></li>
+                                            <li class="des"><emph>33 Years</emph> of Experience in the Industry</li>
+                                            <li class="des">Committed to Giving a Reliable and <emph>Tailor Made Service</emph></li>
+                                            <li class="des">A <emph>Certified Women-Owned Business Enterprise (WBE)</emph> that Prides Itself on Attention to Detail and a Passion for Building</li>
+                                        </ul>   
+<!--                                    </section>-->
+<!--
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+-->
+<!--
+                    <section class="oww">
+                    </section>
+-->
+                          
+<!--                    <div class="container">                -->
+                                    <block>
+                                        <h1>Where We Operate</h1>
+                                    </block>
+                                    <section class="wwd_cont">
+                                            <p class="des">Based in the <emph>Chicagoland</emph> area, we have completed numerous projects in and around the city. Take a look at the locations of some of our previous restorations.</p>
+                                        <map id="mapid">
+                                            <script>
+                                                var mymap = L.map('mapid').setView([42.0781, -87.9298], 9); 
+                                                var marker = L.marker([42.015833, -87.713333]).addTo(mymap);
+                                                marker.bindPopup("<b>Federal-Mogul</b><br>Skokie, Illinois");
+                                                var marker = L.marker([42.091332, -87.762315]).addTo(mymap);
+                                                marker.bindPopup("<b>Stepan Comapny</b><br>Northfield, Illinois");
+                                                var marker = L.marker([42.026940, -87.753930]).addTo(mymap);
+                                                marker.bindPopup("<b>Lincolnwood Terrace Condominuim</b><br>Skokie, Illinois");
+                                                var marker = L.marker([41.898071, -87.622017]).addTo(mymap);
+                                                marker.bindPopup("<b>Disney Store</b><br>Chicago, Illinois");
+                                                var marker = L.marker([41.917240, -87.772000]).addTo(mymap);
+                                                marker.bindPopup("<b>JLO Metals</b><br>Chicago, Illinois");
+                                                var marker = L.marker([41.888070, -87.622230]).addTo(mymap);
+                                                marker.bindPopup("<b>Hyatt Regency</b><br>Chicago, Illinois");
+                                                var marker = L.marker([42.14391, -87.85765]).addTo(mymap);
+                                                marker.bindPopup("<b>Bell Foods</b><br>Northbrook, Illinois");
+                                                var marker = L.marker([41.91248, -87.64007]).addTo(mymap);
+                                                marker.bindPopup("<b>Saint Michaels Condominiums</b><br>Chicago, Illinois");
+                                                var marker = L.marker([42.47040, -88.09031]).addTo(mymap);
+                                                marker.bindPopup("<b>U-Haul Moving & Storage of Chain O'Lakes</b><br>Antioch, Illinois"); L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+                                                attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>', maxZoom: 18, id:'mapbox/streets-v11', tileSize: 512, zoomOffset: -1,   accessToken:'pk.eyJ1IjoiYnNhbmRlcjE1IiwiYSI6ImNrajBvYTk4cDBkNWQycWxqMXZpaWgyMGMifQ.CXp54sxIZu6LE5DZz0EwAw'
+                                                }).addTo(mymap);
+                                            </script>
+                                           
+                                        </map>   
+                                    </section>
+<!--                        </div>-->
+                                </div>
+<!--                            </div>-->
+                        </div>
+<!--                    </div>-->
+                    
+                                    
+                                    
+                                    
+									
+
+				
+								
+
+						
+					
+				</section>
+
+			<!-- Footer -->
+				<div id="footer">
+				    <div id="footerQuote">
+                        <h3 id="quote1">"Our Clients Are Our #1 Priority"</h3>
+                        <h4 id="quote2">-Elizabeth Sander</h4>
+                    </div>
+
+					<!-- Icons (none of which are in use) -->
+						
+					<!-- Copyright -->
+						<div class="copyright">
+							<ul class="menu">
+                                <li>E-mail: <a href= "mailto: esanderconstruct@sbcglobal.net">esanderconstruct@sbcglobal.net</a></li> <li>Phone: <a href="tel:847-361-5516">847-361-5516</a></li>
+							</ul>
+						</div>
+                        <ul class="icons">
+
+							<li><a href="https://www.facebook.com/E-Sander-Restoration-Inc-101098935357284" target="_blank" class="icon brands fa-facebook"><span class="label">Facebook</span></a></li>
+
+							<li><a href="https://www.linkedin.com/company/e-sander-restoration-inc/about/" target="_blank" rel="noreferrer noopener" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+
+						</ul>  
+
+
+				</div>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
